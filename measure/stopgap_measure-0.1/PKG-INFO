@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: stopgap_measure
+Version: 0.1
+Summary: Methylation estimation of bisulphite-treated DNA
+Home-page: http://www.csiro.au/fns
+Author: Jason Ross
+Author-email: jason.ross@csiro.au
+License: CSIRO license <http://www.ict.csiro.au/downloads.php>
+Description: UNKNOWN
+Platform: ALL
+Requires: pandas (>=0.8.0)
+Requires: pysam
