@@ -1,0 +1,35 @@
+System Requirements
+===================
+
+Stopgap-measure requires pysam, numpy, pandas (0.8 or greater) and python (2.6 or greater).
+
+Installation
+============
+
+Unpack the distribution and enter the stopgap-measure directory.
+Type: 
+	python setup.py install
+
+to install it within the site-packages directory of your python
+distribution.
+
+
+Run from the command line
+=========================
+
+run_measure.py, is a runnable script that is a wrapper for measure.py
+It's installed in /usr/local/bin/ in Ubuntu
+
+Type:
+	run_measure.py -b <bamfile.bam> -f <fastafile>
+
+or:
+	run_measure.py --help
+
+for help on the options.
+
+
+Architecture specific options
+=============================
+
+Stopgap-measure has been tested with Python 2.7. 
